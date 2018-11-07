@@ -21,7 +21,7 @@
 
 ## Шаблон producer-consumer
 Шаблон “producer-consumer” устроен по следующей схеме:
-<img src="./images/producer-consumer.svg" width="600"/>
+![producer-consumer](./images/producer-consumer.svg)
 
 > Этот шаблон часто применяется в высоконагруженных системах, распределенных вычислениях. Почти всегда можно абстрагировать задачу и выделить в ней части, которые делают некоторый препроцессинг, и части, которые занимаются окончательной обработкой данных на основе этого препроцессинга. Этот шаблон - это обобщение принципа подобного разделения.
 
@@ -35,4 +35,4 @@
 1. Используйте пул потоков. Например, [ThreadPool](https://github.com/progschj/ThreadPool).
 1. Все необходимые примеры по работе с [gumbo-parser](https://github.com/google/gumbo-parser) есть по [ссылке](https://github.com/google/gumbo-parser/tree/master/examples).
 1. При решении задачи следует использовать шаблон procuder-consumer два раза, по следующей схеме:
-<img src="./images/scheme.svg" width="600"/>
+![scheme](./images/scheme.svg)
